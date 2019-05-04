@@ -1,5 +1,5 @@
 @echo off
-title BoomBeach
+title Boom Benchmark
 color 2f
 mode con cols=78 lines=15
 set /p HDate=<.\HDate
@@ -10,14 +10,14 @@ echo. Boom Benchmark
 echo. __________________________________________________________________________
 echo. Code By Xenoex
 echo. Version 1.0
-echo. BoomBeach£¬Ò»¿îCPU¶àÏß³Ì´¦ÀíÐÔÄÜÅÜ·Ö£¬¿ÉÄÜ»áÓÐÀ¶ÆÁ¡¢CPUÎÂ¶È
-echo. ÎÂ¶È¹ý¸ß¡¢Êý¾Ý¶ªÊ§µÈ·çÏÕ¡£
+echo. BoomBeachï¼Œä¸€æ¬¾CPUå¤šçº¿ç¨‹å¤„ç†æ€§èƒ½è·‘åˆ†ï¼Œå¯èƒ½ä¼šæœ‰è“å±ã€CPUæ¸©åº¦
+echo. æ¸©åº¦è¿‡é«˜ã€æ•°æ®ä¸¢å¤±ç­‰é£Žé™©ã€‚
 echo. 
-echo. ÄúµÄÉÏ´ÎÅÜ·Ö¼ÇÂ¼
-echo. Ê±¼ä:%HDate%
-echo. ÍêÕûÔËËã´ÎÊý:%HScore%
+echo. æ‚¨çš„ä¸Šæ¬¡è·‘åˆ†è®°å½•
+echo. æ—¶é—´:%HDate%
+echo. å®Œæ•´è¿ç®—æ¬¡æ•°:%HScore%
 echo.
-echo. °´ÏÂÈÎÒâ¼ü¿ªÊ¼...
+echo. æŒ‰ä¸‹ä»»æ„é”®å¼€å§‹...
 pause >nul
 echo %Date% %Time%>HDate
 echo.0>HScore
